@@ -13,11 +13,11 @@ import java.util.List;
  * @author vithya.voeuk
  */
 public interface IThingService {
-    public List<Thing> findByName(String name);
+    List<Thing> findByName(String name);
     
-    public void create(Thing t);
-    public void update(Thing t);
-    public void delete(Thing t);
+    void create(Thing t);
+    void update(Thing t);
+    void delete(Thing t);
     
     
 }
